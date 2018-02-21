@@ -98,7 +98,7 @@ if __name__ == "__main__":
   for instance in instances:
     print('ID: {0} | NAME: {1} | DNS: {2} | STATE: {3}'.format(instance, instances[instance]['Name'], instances[instance]['PublicDnsName'], instances[instance]['State']))
 #    if instances[instance]['PublicDnsName'] != '' : test_instances_list.append(instances[instance]['PublicDnsName'])
-#   can't test it for real
+#   can't test it for real (now problem with domain buying)
     test_instances_list.append('google.com')
   
   if test_instances_list:
